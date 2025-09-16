@@ -1,51 +1,53 @@
-# Exploratory-Data-Analysis-EDA-on-Superstore-Marketing-Campaign-Dataset
-Project ini berfokus pada analisis data kampanye pemasaran untuk memahami pola perilaku pelanggan, segmentasi, serta faktor-faktor yang memengaruhi efektivitas kampanye. Analisis mencakup visualisasi data, identifikasi insight bisnis, dan eksplorasi hubungan antar variabel.
+# 📊 Superstore Marketing Campaign – Exploratory Data Analysis (EDA)
 
-Proyek ini berfokus pada Exploratory Data Analysis (EDA) dari dataset kampanye pemasaran Superstore. Tujuan utamanya adalah untuk memahami perilaku pelanggan, mengevaluasi efektivitas kampanye, serta menemukan insight yang dapat mendukung pengambilan keputusan bisnis.
+## 📝 Deskripsi Proyek
+Proyek ini bertujuan untuk melakukan **analisis eksploratif** terhadap dataset *Superstore Marketing Campaign*. Analisis ini digunakan untuk memahami pola perilaku pelanggan, segmentasi berdasarkan demografi, serta faktor-faktor yang memengaruhi keputusan pembelian.  
 
-Analisis ini mencakup proses pembersihan data, eksplorasi variabel utama, hingga visualisasi data yang memberikan gambaran mengenai pola belanja, segmentasi pelanggan, serta peluang peningkatan strategi pemasaran.
+Melalui tahapan EDA, project ini membantu mengungkap insight bisnis yang bermanfaat untuk meningkatkan efektivitas kampanye pemasaran dan pengambilan keputusan berbasis data.  
 
-⚙️ Tools & Libraries
+---
 
-Proses analisis dilakukan menggunakan bahasa pemrograman Python dengan pustaka utama berikut:
+## 🔍 Tahapan Analisis
+1. **Data Understanding**  
+   - Membaca dataset dan memahami struktur data (dimensi, tipe data, missing values).  
+   - Meninjau deskripsi statistik awal.  
 
-pandas → manipulasi dan pembersihan data
-numpy → perhitungan numerik
+2. **Data Cleaning**  
+   - Menangani missing values (contohnya pada variabel *Income*).  
+   - Mengidentifikasi dan mengatasi outlier dengan metode IQR.  
 
-matplotlib & seaborn → visualisasi data
+3. **Univariate Analysis**  
+   - Distribusi variabel numerik seperti pendapatan dan umur.  
+   - Distribusi kategori seperti status pernikahan, pendidikan, dan jenis produk yang dibeli.  
 
-scikit-learn (opsional, jika ada modeling sederhana)
+4. **Bivariate & Multivariate Analysis**  
+   - Hubungan antara variabel demografi (usia, pendidikan, status pernikahan) dengan jumlah belanja.  
+   - Pola pembelian berdasarkan kanal (toko, online, katalog).  
 
-📈 Exploratory Data Analysis
+5. **Feature Engineering**  
+   - Pembuatan fitur turunan untuk mendukung analisis, seperti kelompok usia pelanggan.  
 
-Langkah-langkah utama yang dilakukan:
+6. **Data Visualization & Business Questions**  
+   - Bagaimana status pernikahan memengaruhi pengeluaran pada berbagai produk?  
+   - Bagaimana pendidikan berhubungan dengan pola belanja?  
+   - Distribusi usia pelanggan dan tingkat respons terhadap kampanye.  
+   - 10 pelanggan dengan total pengeluaran terbesar & jumlah pembelian terbanyak.  
+   - Apakah dataset seimbang dalam distribusi kategorinya?  
 
-1. Data Cleaning:
+---
 
-Mengatasi missing values
+## 📈 Hasil & Insight
+- Pelanggan usia **48–55 tahun** menunjukkan respons paling positif terhadap kampanye.  
+- Pelanggan usia **50 tahun ke atas** cenderung lebih banyak berbelanja melalui katalog.  
+- Tingkat pendidikan dan status pernikahan berperan dalam menentukan pola belanja.  
+- Identifikasi **top customers** yang dapat menjadi target prioritas dalam strategi pemasaran.  
 
-Menghapus atau memperbaiki data duplikat/anomali
+---
 
-Mengubah tipe data agar sesuai dengan analisis
+## 🛠 Tools & Libraries
+- **Python**: Pandas, NumPy, Matplotlib, Seaborn  
+- **Jupyter Notebook**: untuk eksplorasi interaktif dan visualisasi  
 
-2. Univariate Analysis:
+---
 
-Distribusi umur, pendapatan, pendidikan, jumlah anak, dsb.
-
-Pola pengeluaran dan pembelian pelanggan
-
-3. Bivariate/Multivariate Analysis:
-
-Hubungan antara demografi dengan keberhasilan kampanye
-
-Hubungan antara pendapatan dengan jenis produk yang dibeli
-
-Analisis pelanggan yang merespon vs tidak merespon kampanye
-
-4. Visualisasi Data:
-
-Histogram & boxplot → distribusi variabel numerik
-
-Heatmap korelasi → hubungan antar variabel
-
-Barplot & countplot → preferensi produk dan partisipasi kampanye
+## 📂 Struktur Proyek
