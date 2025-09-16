@@ -8,9 +8,12 @@ Analisis ini mencakup proses pembersihan data, eksplorasi variabel utama, hingga
 ⚙️ Tools & Libraries
 
 Proses analisis dilakukan menggunakan bahasa pemrograman Python dengan pustaka utama berikut:
+
 pandas → manipulasi dan pembersihan data
 numpy → perhitungan numerik
+
 matplotlib & seaborn → visualisasi data
+
 scikit-learn (opsional, jika ada modeling sederhana)
 
 📈 Exploratory Data Analysis
@@ -39,7 +42,7 @@ Hubungan antara pendapatan dengan jenis produk yang dibeli
 
 Analisis pelanggan yang merespon vs tidak merespon kampanye
 
-Visualisasi Data
+Visualisasi Data:
 
 Histogram & boxplot → distribusi variabel numerik
 
