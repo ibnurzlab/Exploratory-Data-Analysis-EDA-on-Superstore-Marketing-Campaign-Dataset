@@ -20,7 +20,7 @@ scikit-learn (opsional, jika ada modeling sederhana)
 
 Langkah-langkah utama yang dilakukan:
 
-Data Cleaning:
+1. Data Cleaning:
 
 Mengatasi missing values
 
@@ -28,13 +28,13 @@ Menghapus atau memperbaiki data duplikat/anomali
 
 Mengubah tipe data agar sesuai dengan analisis
 
-Univariate Analysis:
+2. Univariate Analysis:
 
 Distribusi umur, pendapatan, pendidikan, jumlah anak, dsb.
 
 Pola pengeluaran dan pembelian pelanggan
 
-Bivariate/Multivariate Analysis:
+3. Bivariate/Multivariate Analysis:
 
 Hubungan antara demografi dengan keberhasilan kampanye
 
@@ -42,7 +42,7 @@ Hubungan antara pendapatan dengan jenis produk yang dibeli
 
 Analisis pelanggan yang merespon vs tidak merespon kampanye
 
-Visualisasi Data:
+4. Visualisasi Data:
 
 Histogram & boxplot → distribusi variabel numerik
 
