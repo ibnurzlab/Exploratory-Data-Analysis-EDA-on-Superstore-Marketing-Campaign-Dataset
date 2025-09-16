@@ -49,5 +49,3 @@ Melalui tahapan EDA, project ini membantu mengungkap insight bisnis yang bermanf
 - **Jupyter Notebook**: untuk eksplorasi interaktif dan visualisasi  
 
 ---
-
-## 📂 Struktur Proyek
